@@ -1,0 +1,126 @@
+{
+  "author": {
+    "email": "shawn.torsitano@gmail.com",
+    "name": "Shawn Torsitano",
+    "roles": [
+      "author"
+    ]
+  },
+  "description": "",
+  "docs": {
+    "stability": "experimental"
+  },
+  "homepage": "https://github.com/Torsitano/jsii-layer#readme",
+  "jsiiVersion": "1.55.1 (build 07d2d90)",
+  "keywords": [],
+  "license": "ISC",
+  "metadata": {
+    "jsii": {
+      "pacmak": {
+        "hasDefaultInterfaces": true
+      }
+    }
+  },
+  "name": "jsii-layer",
+  "readme": {
+    "markdown": "# test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Torsitano/jsii-layer.git"
+  },
+  "schema": "jsii/0.10.0",
+  "targets": {
+    "js": {
+      "npm": "jsii-layer"
+    },
+    "python": {
+      "distName": "jsii-layer",
+      "module": "jsii_layer"
+    }
+  },
+  "types": {
+    "jsii-layer.Greeter": {
+      "assembly": "jsii-layer",
+      "docs": {
+        "stability": "experimental"
+      },
+      "fqn": "jsii-layer.Greeter",
+      "initializer": {
+        "docs": {
+          "stability": "experimental"
+        },
+        "locationInModule": {
+          "filename": "index.ts",
+          "line": 8
+        },
+        "parameters": [
+          {
+            "name": "props",
+            "type": {
+              "fqn": "jsii-layer.GreeterProps"
+            }
+          }
+        ]
+      },
+      "kind": "class",
+      "locationInModule": {
+        "filename": "index.ts",
+        "line": 5
+      },
+      "methods": [
+        {
+          "docs": {
+            "stability": "experimental"
+          },
+          "locationInModule": {
+            "filename": "index.ts",
+            "line": 12
+          },
+          "name": "greet",
+          "returns": {
+            "type": {
+              "primitive": "string"
+            }
+          }
+        }
+      ],
+      "name": "Greeter",
+      "symbolId": "index:Greeter"
+    },
+    "jsii-layer.GreeterProps": {
+      "assembly": "jsii-layer",
+      "datatype": true,
+      "docs": {
+        "stability": "experimental"
+      },
+      "fqn": "jsii-layer.GreeterProps",
+      "kind": "interface",
+      "locationInModule": {
+        "filename": "index.ts",
+        "line": 1
+      },
+      "name": "GreeterProps",
+      "properties": [
+        {
+          "abstract": true,
+          "docs": {
+            "stability": "experimental"
+          },
+          "immutable": true,
+          "locationInModule": {
+            "filename": "index.ts",
+            "line": 2
+          },
+          "name": "greetee",
+          "type": {
+            "primitive": "string"
+          }
+        }
+      ],
+      "symbolId": "index:GreeterProps"
+    }
+  },
+  "version": "1.0.0",
+  "fingerprint": "SzFdWQtikLvZcgx3UAQqKs4NyLOZ8cn3hNGMoCDt/Zg="
+}
